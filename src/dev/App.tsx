@@ -1,10 +1,11 @@
 import { Button } from '../components/Button/Button'
+import { Container } from '../components/Container/Container'
 
 function App() {
   return (
-    <>
-      <Button onClick={() => alert("You click me")}>Click me</Button>
-    </>
+    <Container>
+      <Button onClick={() => alert('Button clicked!')}>Click Me!</Button>
+    </Container>
   )
 }
 
