@@ -12,10 +12,3 @@ export const H3 = ({ styles, children }: IProps) => {
   return <div style={styles}>{children}</div>;
 };
 
-export const H4 = ({ styles, children }: IProps) => {
-  return <div style={styles}>{children}</div>;
-};
-
-export const H5 = ({ styles, children }: IProps) => {
-  return <div style={styles}>{children}</div>;
-};
